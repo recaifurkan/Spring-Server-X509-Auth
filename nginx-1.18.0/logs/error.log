@@ -1,0 +1,366 @@
+2021/02/26 21:19:03 [notice] 3776#20252: signal process started
+2021/02/26 21:19:28 [error] 1720#15812: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:21:53 [notice] 19672#7120: signal process started
+2021/02/26 21:22:18 [notice] 8312#16684: signal process started
+2021/02/26 21:22:34 [error] 19216#9708: *6 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:22:56 [notice] 20144#5144: signal process started
+2021/02/26 21:25:28 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:25:28 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/02/26 21:25:34 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:25:34 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/02/26 21:25:35 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:25:35 [error] 3332#11808: *2 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/02/26 21:42:02 [emerg] 18884#8480: cannot load certificate "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/certs/localhost.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/certs/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/02/26 21:42:28 [emerg] 2900#14300: cannot load certificate "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/certs/localhost.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/certs/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/02/26 21:42:45 [notice] 7404#10560: signal process started
+2021/02/26 21:42:54 [error] 13720#16672: *11 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2021/02/26 21:42:55 [error] 13720#16672: *11 no resolver defined to resolve localhost, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2021/02/26 21:43:16 [notice] 10308#5596: signal process started
+2021/02/26 21:43:21 [error] 10792#13876: *12 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 21:43:21 [error] 10792#13876: *12 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 21:43:21 [error] 10792#13876: *12 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 21:44:06 [error] 10792#13876: *15 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 21:44:06 [error] 10792#13876: *15 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 21:44:06 [error] 10792#13876: *15 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 21:44:07 [error] 10792#13876: *18 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 21:44:07 [error] 10792#13876: *18 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 21:44:46 [warn] 15364#17624: the "ssl" directive is deprecated, use the "listen ... ssl" directive instead in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:45
+2021/02/26 22:05:44 [notice] 16256#11876: signal process started
+2021/02/26 22:05:49 [error] 6768#18108: *19 CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/html/favicon.ico" failed (2: Sistem belirtilen dosyayý bulamýyor), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2021/02/26 22:23:45 [emerg] 8980#6220: cannot load certificate "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/x509Test/store/localhost.crt": BIO_new_file() failed (SSL: error:02001003:system library:fopen:No such process:fopen('C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/x509Test/store/localhost.crt','r') error:2006D080:BIO routines:BIO_new_file:no such file)
+2021/02/26 22:24:14 [notice] 14432#17888: signal process started
+2021/02/26 22:24:21 [error] 10936#7524: *21 CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/html/favicon.ico" failed (2: Sistem belirtilen dosyayý bulamýyor), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "https://localhost/"
+2021/02/26 22:25:37 [notice] 828#4824: signal process started
+2021/02/26 22:25:43 [error] 664#13444: *22 connect() failed (10061: Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:25:45 [error] 664#13444: *22 connect() failed (10061: Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:29:32 [error] 664#13444: *25 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:29:32 [error] 664#13444: *25 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:29:34 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:29:35 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:29:35 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:29:36 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:29:36 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:05 [error] 664#13444: *25 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:30:05 [error] 664#13444: *25 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:30:06 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:07 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:07 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:08 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:08 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:09 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:09 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:10 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:10 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:11 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:12 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:13 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:13 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:30:13 [error] 664#13444: *25 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:31:52 [error] 664#13444: *30 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:31:52 [error] 664#13444: *30 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:34:04 [notice] 16468#6248: signal process started
+2021/02/26 22:34:07 [error] 17968#12992: *33 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:34:07 [error] 17968#12992: *33 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:34:07 [error] 17968#12992: *33 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 22:41:31 [error] 17968#12992: *36 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:41:31 [error] 17968#12992: *36 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:41:31 [error] 17968#12992: *36 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 22:41:32 [error] 17968#12992: *39 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:41:32 [error] 17968#12992: *39 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:41:33 [error] 17968#12992: *39 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:41:33 [error] 17968#12992: *39 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:42:06 [notice] 8952#5448: signal process started
+2021/02/26 22:42:10 [error] 3568#14264: *40 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:42:10 [error] 3568#14264: *40 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:50:36 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:50:36 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:50:51 [notice] 9032#9500: signal process started
+2021/02/26 22:50:57 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 22:51:23 [notice] 10856#6800: signal process started
+2021/02/26 22:51:26 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 22:51:30 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:51:30 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:52:19 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:52:19 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:52:39 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:52:39 [error] 3568#14264: *43 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:52:40 [error] 3568#14264: *43 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 22:54:08 [notice] 13016#5232: signal process started
+2021/02/26 22:54:11 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 22:54:15 [error] 3568#14264: *52 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 22:54:15 [error] 3568#14264: *52 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 22:54:18 [error] 3568#14264: *52 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:15:54 [error] 3568#14264: *55 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 23:15:54 [error] 3568#14264: *55 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 23:15:55 [error] 3568#14264: *55 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:27:37 [notice] 9788#10892: signal process started
+2021/02/26 23:27:40 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:27:44 [error] 3568#14264: *58 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 23:27:44 [error] 3568#14264: *58 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 23:33:59 [notice] 7440#16232: signal process started
+2021/02/26 23:34:02 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:34:05 [error] 3568#14264: *61 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 23:34:05 [error] 3568#14264: *61 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 23:34:05 [error] 3568#14264: *61 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 23:34:59 [notice] 15196#15592: signal process started
+2021/02/26 23:35:02 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:35:06 [error] 3568#14264: *64 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 23:35:06 [error] 3568#14264: *64 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 23:38:53 [notice] 15384#12208: signal process started
+2021/02/26 23:38:56 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/rootCA.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:38:59 [error] 3568#14264: *67 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/26 23:38:59 [error] 3568#14264: *67 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/26 23:39:00 [error] 3568#14264: *67 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/26 23:39:01 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:01 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:02 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:02 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:02 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:02 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:02 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:03 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:04 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:04 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:04 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:04 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:39:05 [error] 3568#14264: *70 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://localhost/", host: "localhost"
+2021/02/26 23:41:14 [notice] 5332#17888: signal process started
+2021/02/26 23:41:17 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:44:08 [emerg] 13316#14932: "stream" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:35
+2021/02/26 23:44:35 [emerg] 15512#12448: "server_name" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:83
+2021/02/26 23:45:07 [emerg] 16436#13844: the invalid "default" parameter in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:88
+2021/02/26 23:45:15 [emerg] 12604#17364: "location" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:95
+2021/02/26 23:45:41 [emerg] 19340#1720: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:95
+2021/02/26 23:46:14 [notice] 3272#7788: signal process started
+2021/02/26 23:46:17 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:55:31 [notice] 14720#5480: signal process started
+2021/02/26 23:55:33 [emerg] 14068#4596: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/26 23:56:25 [notice] 19656#3908: signal process started
+2021/02/26 23:58:59 [alert] 12404#17316: the event "ngx_master_12404" was not signaled for 5s
+2021/02/26 23:59:23 [alert] 9940#9424: the event "ngx_master_9940" was not signaled for 5s
+2021/02/26 23:59:34 [notice] 18300#14604: signal process started
+2021/02/26 23:59:34 [error] 18300#14604: OpenEvent("Global\ngx_reload_9940") failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 00:00:14 [notice] 6220#12804: signal process started
+2021/02/27 00:00:21 [emerg] 8560#4112: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:02:54 [emerg] 9180#14252: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2021/02/27 00:03:46 [notice] 2516#13720: signal process started
+2021/02/27 00:03:50 [emerg] 8560#4112: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:04:26 [notice] 8364#10312: signal process started
+2021/02/27 00:04:28 [emerg] 8560#4112: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:09:42 [notice] 15508#8496: signal process started
+2021/02/27 00:09:46 [emerg] 8560#4112: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:14:59 [notice] 13792#12468: signal process started
+2021/02/27 00:15:25 [notice] 18512#12784: signal process started
+2021/02/27 00:15:27 [emerg] 17236#4944: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:16:12 [notice] 6088#7752: signal process started
+2021/02/27 00:16:33 [alert] 12184#18488: the event "ngx_master_12184" was not signaled for 5s
+2021/02/27 00:16:50 [notice] 5260#15532: signal process started
+2021/02/27 00:16:50 [error] 5260#15532: OpenEvent("Global\ngx_stop_12184") failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 00:17:09 [alert] 15084#16744: the event "ngx_master_15084" was not signaled for 5s
+2021/02/27 00:17:13 [emerg] 3924#15644: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:32
+2021/02/27 00:17:21 [notice] 13732#17572: signal process started
+2021/02/27 00:17:21 [error] 13732#17572: OpenEvent("Global\ngx_stop_15084") failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 00:17:33 [emerg] 14072#14972: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:32
+2021/02/27 00:18:17 [notice] 3304#4408: signal process started
+2021/02/27 00:18:17 [error] 3304#4408: OpenEvent("Global\ngx_reload_15084") failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 00:19:10 [notice] 15196#19528: signal process started
+2021/02/27 00:21:33 [notice] 6564#16588: signal process started
+2021/02/27 00:21:36 [emerg] 6852#6888: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:22:12 [emerg] 5448#19724: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/rootCA.key": PEM_read_bio_PrivateKey() failed (SSL: error:06065064:digital envelope routines:EVP_DecryptFinal_ex:bad decrypt error:23077074:PKCS12 routines:PKCS12_pbe_crypt:pkcs12 cipherfinal error error:2306A075:PKCS12 routines:PKCS12_item_decrypt_d2i:pkcs12 pbe crypt error error:0907B00D:PEM routines:PEM_read_bio_PrivateKey:ASN1 lib)
+2021/02/27 00:22:21 [notice] 3324#9776: signal process started
+2021/02/27 00:22:24 [emerg] 6852#6888: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/rootCA.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:23:18 [notice] 10044#10968: signal process started
+2021/02/27 00:23:22 [emerg] 6852#6888: cannot load certificate key "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key": PEM_read_bio_PrivateKey() failed (SSL: error:2807106B:UI routines:UI_process:processing error:while reading strings error:0906406D:PEM routines:PEM_def_callback:problems getting password error:0907B068:PEM routines:PEM_read_bio_PrivateKey:bad password read)
+2021/02/27 00:25:15 [notice] 6012#7400: signal process started
+2021/02/27 00:25:41 [notice] 11324#10968: signal process started
+2021/02/27 00:29:37 [emerg] 2364#3932: SSL_CTX_use_PrivateKey("C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/../../x509Test/store/localhost.key") failed (SSL: error:0B080074:x509 certificate routines:X509_check_private_key:key values mismatch)
+2021/02/27 00:32:43 [notice] 3316#15216: signal process started
+2021/02/27 00:33:43 [notice] 19072#11008: signal process started
+2021/02/27 00:39:36 [notice] 13884#10428: signal process started
+2021/02/27 00:40:19 [emerg] 15532#7308: "location" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:110
+2021/02/27 00:40:32 [emerg] 3856#8888: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:110
+2021/02/27 00:40:53 [notice] 2636#20456: signal process started
+2021/02/27 00:41:17 [emerg] 7208#9960: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:101
+2021/02/27 00:41:28 [notice] 17708#3712: signal process started
+2021/02/27 00:42:03 [emerg] 8632#7132: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:110
+2021/02/27 00:42:54 [emerg] 17172#18644: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:104
+2021/02/27 00:43:02 [emerg] 13820#9888: no "listen" is defined for server in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:99
+2021/02/27 00:43:14 [emerg] 19520#20220: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:106
+2021/02/27 00:43:23 [notice] 19764#7152: signal process started
+2021/02/27 00:47:01 [emerg] 8360#2440: unknown directive "ssl_preread" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:46
+2021/02/27 00:49:28 [notice] 17008#14016: signal process started
+2021/02/27 00:55:30 [error] 4708#18508: *88 connect() failed (10061: Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 00:56:59 [error] 4708#18508: *101 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 00:56:59 [error] 4708#18508: *101 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://127.0.0.1:8443/user", host: "localhost"
+2021/02/27 00:57:00 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:01 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:02 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:02 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:54 [error] 4708#18508: *101 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://127.0.0.1:8443/user", host: "localhost"
+2021/02/27 00:57:54 [error] 4708#18508: *101 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 00:57:55 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:56 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:56 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:56 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:57:56 [error] 4708#18508: *101 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://localhost/user", host: "localhost"
+2021/02/27 00:58:46 [error] 4708#18508: *114 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/27 00:58:46 [error] 4708#18508: *114 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/27 00:58:46 [error] 4708#18508: *114 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/27 01:00:25 [error] 4708#18508: *127 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/27 01:00:25 [error] 4708#18508: *127 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/27 01:00:25 [error] 4708#18508: *127 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "https://localhost/"
+2021/02/27 01:02:15 [error] 4708#18508: *132 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://127.0.0.1:8443/", host: "localhost"
+2021/02/27 01:02:15 [error] 4708#18508: *132 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "https://[::1]:8443/", host: "localhost"
+2021/02/27 01:02:15 [error] 4708#18508: *132 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "https://localhost/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2021/02/27 01:08:36 [emerg] 3932#19216: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:32
+2021/02/27 01:08:55 [notice] 18928#8588: signal process started
+2021/02/27 01:11:35 [notice] 8056#19600: signal process started
+2021/02/27 01:12:10 [error] 11544#6396: *136 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 01:12:10 [error] 11544#6396: *136 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://127.0.0.1:8443/user", host: "localhost"
+2021/02/27 01:13:25 [emerg] 12928#13320: no ssl_client_certificate for ssl_verify_client
+2021/02/27 01:13:45 [emerg] 18524#16836: no ssl_client_certificate for ssl_verify_client
+2021/02/27 01:16:21 [error] 11544#6396: *147 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://127.0.0.1:8443/user", host: "localhost"
+2021/02/27 01:16:21 [error] 11544#6396: *147 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 01:18:16 [error] 11544#6396: *150 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://[::1]:8443/user", host: "localhost"
+2021/02/27 01:18:16 [error] 11544#6396: *150 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: localhost, request: "GET /user HTTP/1.1", upstream: "https://127.0.0.1:8443/user", host: "localhost"
+2021/02/27 01:19:18 [emerg] 14004#17296: invalid host in upstream "https://localhost:8443" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:107
+2021/02/27 01:19:25 [notice] 12000#17092: signal process started
+2021/02/27 01:20:35 [notice] 10300#4368: signal process started
+2021/02/27 01:20:44 [error] 7880#17460: *157 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while proxying connection, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "[::1]:8443", bytes from/to client:467/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *157 SSL_do_handshake() failed (SSL: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:SSL alert number 42) while SSL handshaking to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "127.0.0.1:8443", bytes from/to client:467/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *160 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *161 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *162 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *163 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *164 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *165 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *166 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *167 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:44 [error] 7880#17460: *168 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:46 [error] 7880#17460: *169 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:46 [error] 7880#17460: *170 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:46 [error] 7880#17460: *171 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *172 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *173 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *174 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *175 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *176 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *177 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:20:47 [error] 7880#17460: *178 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:443, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:21:03 [emerg] 15756#3264: no "ssl_certificate" is defined for the "listen ... ssl" directive in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:100
+2021/02/27 01:21:08 [notice] 11020#13908: signal process started
+2021/02/27 01:21:56 [emerg] 13872#14504: unknown directive "index.html" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:39
+2021/02/27 01:22:22 [notice] 8484#12384: signal process started
+2021/02/27 01:22:47 [error] 17708#17424: *184 CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/html/favicon.ico" failed (2: Sistem belirtilen dosyayý bulamýyor), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/02/27 01:23:09 [notice] 19336#13764: signal process started
+2021/02/27 01:23:21 [notice] 12024#14832: signal process started
+2021/02/27 01:23:38 [notice] 20084#4820: signal process started
+2021/02/27 01:26:17 [notice] 17888#1104: signal process started
+2021/02/27 01:27:22 [emerg] 9968#17692: no "listen" is defined for server in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:107
+2021/02/27 01:27:27 [notice] 10648#11200: signal process started
+2021/02/27 01:28:26 [emerg] 19024#17172: "server" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:107
+2021/02/27 01:28:56 [emerg] 4368#11980: "stream" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:34
+2021/02/27 01:29:16 [emerg] 2092#16812: "server" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:107
+2021/02/27 01:29:27 [notice] 5576#3120: signal process started
+2021/02/27 01:39:29 [emerg] 7448#18720: "proxy_pass" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:16
+2021/02/27 01:40:13 [emerg] 17432#18236: invalid URL prefix in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:46
+2021/02/27 01:40:37 [emerg] 7284#18936: invalid URL prefix in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:47
+2021/02/27 01:41:36 [emerg] 3344#19224: invalid URL prefix in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:41
+2021/02/27 01:41:55 [notice] 7656#6696: signal process started
+2021/02/27 01:45:21 [emerg] 20092#15892: "if" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:109
+2021/02/27 01:45:57 [emerg] 19436#3768: "if" directive is not allowed here in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:107
+2021/02/27 01:46:10 [notice] 15240#2844: signal process started
+2021/02/27 01:48:25 [emerg] 20388#5752: unexpected "}" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:118
+2021/02/27 01:48:45 [emerg] 11584#12104: unknown "host" variable
+2021/02/27 01:49:47 [notice] 14292#8144: signal process started
+2021/02/27 01:49:54 [notice] 18756#18236: signal process started
+2021/02/27 01:49:58 [error] 3732#992: *198 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *199 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *200 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *201 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *202 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *203 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *204 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *205 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *206 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *207 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:58 [error] 3732#992: *208 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *209 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *210 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *211 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *212 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *213 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *214 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *215 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:49:59 [error] 3732#992: *216 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *217 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *218 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *219 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *220 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *221 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *222 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *223 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *224 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *225 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *226 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *227 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *228 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *229 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:00 [error] 3732#992: *230 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *231 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *232 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *233 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *234 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *235 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *236 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *237 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *238 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *239 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *240 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *241 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *242 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *243 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *244 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *245 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *246 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *247 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *248 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *249 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:01 [error] 3732#992: *250 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:02 [error] 3732#992: *251 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:50:02 [error] 3732#992: *252 no host in upstream "", client: 127.0.0.1, server: 0.0.0.0:443, bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 01:51:40 [notice] 6924#3284: signal process started
+2021/02/27 02:03:29 [emerg] 4308#9940: host not found in upstream "www.localhost" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:109
+2021/02/27 02:03:58 [emerg] 16576#16408: no port in upstream "www.google.com" in C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/conf/nginx.conf:109
+2021/02/27 02:04:10 [notice] 7524#15548: signal process started
+2021/02/27 02:04:41 [notice] 14252#20416: signal process started
+2021/02/27 02:05:16 [notice] 14620#12540: signal process started
+2021/02/27 02:05:30 [notice] 16316#9496: signal process started
+2021/02/27 02:05:53 [notice] 8612#19812: signal process started
+2021/02/27 02:05:55 [notice] 3636#19992: signal process started
+2021/02/27 02:09:12 [notice] 17820#1392: signal process started
+2021/02/27 02:09:12 [error] 17820#1392: CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/logs/nginx.pid" failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 02:09:16 [notice] 17492#6596: signal process started
+2021/02/27 02:09:16 [error] 17492#6596: CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/logs/nginx.pid" failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 02:09:27 [notice] 15072#7624: signal process started
+2021/02/27 02:09:37 [notice] 18460#5236: signal process started
+2021/02/27 02:09:37 [error] 18460#5236: CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/logs/nginx.pid" failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 02:09:39 [notice] 18368#8032: signal process started
+2021/02/27 02:09:39 [error] 18368#8032: CreateFile() "C:\Users\Furkan\Desktop\x509Test\nginx-1.18.0/logs/nginx.pid" failed (2: Sistem belirtilen dosyayý bulamýyor)
+2021/02/27 02:09:49 [error] 4624#20172: *5 WSARecv() failed (10054: Varolan bir baðlantý uzaktaki bir ana bilgisayar tarafýndan zorla kapatýldý) while proxying and reading from upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "[::1]:8443", bytes from/to client:6263/7269, bytes from/to upstream:7269/6263
+2021/02/27 02:09:53 [error] 4624#20172: *7 connect() failed (10061: Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý) while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "127.0.0.1:8443", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *7 connect() failed (10061: Hedef makine etkin olarak reddettiðinden baðlantý kurulamadý) while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "[::1]:8443", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *10 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *11 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *12 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *13 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *14 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *15 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *16 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *17 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0
+2021/02/27 02:09:55 [error] 4624#20172: *18 no live upstreams while connecting to upstream, client: 127.0.0.1, server: 0.0.0.0:9000, upstream: "localhost", bytes from/to client:0/0, bytes from/to upstream:0/0

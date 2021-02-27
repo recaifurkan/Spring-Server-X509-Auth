@@ -1,0 +1,51 @@
+openssl req -x509 -sha256 -days 3650 -newkey rsa:4096 -keyout rootCA.key -out rootCA.crt
+
+openssl req -new -newkey rsa:4096 -keyout localhost.key -out localhost.csr
+
+
+localhost.ext
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+
+
+openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in localhost.csr -out localhost.crt -days 365 -CAcreateserial -extfile localhost.ext
+
+
+
+openssl x509 -in localhost.crt -text
+
+openssl pkcs12 -export -out localhost.p12 -name "localhost" -inkey localhost.key -in localhost.crt
+
+
+
+keytool -importkeystore -srckeystore localhost.p12 -srcstoretype PKCS12 -destkeystore keystore.jks -deststoretype JKS
+
+
+
+keytool -import -trustcacerts -noprompt -alias ca -ext san=dns:localhost,ip:127.0.0.1 -file rootCA.crt -keystore truststore.jks
+
+
+openssl req -new -newkey rsa:4096 -nodes  -keyout clientBob.key -out clientBob.csr -subj "/CN=0001/OU=example.eshop.az/O=example.eshop.az/L=Baku/ST=Baku/C=AZ"
+
+openssl req -new -newkey rsa:4096 -nodes  -keyout clientRecai.key -out clientRecai.csr -subj "/CN=0002/OU=example.eshop.az/O=example.eshop.az/L=Baku/ST=Baku/C=AZ"
+
+openssl req -new -newkey rsa:4096 -nodes  -keyout clientTest.key -out clientTest.csr -subj "/CN=0003/OU=example.eshop.az/O=example.eshop.az/L=Baku/ST=Baku/C=AZ"
+
+
+openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in clientBob.csr -out clientBob.crt -days 365 -CAcreateserial
+
+openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in clientRecai.csr -out clientRecai.crt -days 365 -CAcreateserial
+
+openssl x509 -req -CA rootCA.crt -CAkey rootCA.key -in clientTest.csr -out clientTest.crt -days 365 -CAcreateserial
+
+
+openssl pkcs12 -export -out clientBob.p12 -name "clientBob" -inkey clientBob.key -in clientBob.crt
+
+openssl pkcs12 -export -out clientRecai.p12 -name "clientRecai" -inkey clientRecai.key -in clientRecai.crt
+
+openssl pkcs12 -export -out clientTest.p12 -name "clientTest" -inkey clientTest.key -in clientTest.crt
+
+
